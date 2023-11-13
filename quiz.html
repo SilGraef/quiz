@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quiz Me</h1>
+
+        <form id="quiz-form">
+            <div id="question1">
+                <h2>Which country is known as the "Land of the Rising Sun"?</h2>
+
+                <label for="answer1-Japan">Japan</label>
+                <input type="radio" id="answer1-japan" name="question1" value="Japan">
+                <br>
+
+                <label for="answer1-china">China</label>
+                <input type="radio" id="answer1-china" name="question1" value="china">
+                <br>
+
+                <label for="answer1-korea">Korea</label>
+                <input type="radio" id="answer1-korea" name="question1" value="korea">
+                <br>
+
+                <label for="answer1-india">India</label>
+                <input type="radio" id="answer1-india" name="question1" value="india">
+            </div>
+
+            <div id="question2">
+                <h2>Which river is the longest in the world?</h2>
+
+                <label for="answer2-nile">Nile</label>
+                <input type="radio" id="answer2-nile" name="question2" value="Nile">
+                <br>
+
+                <label for="answer2-amazon">Amazon</label>
+                <input type="radio" id="answer2-amazon" name="question2" value="amazon">
+                <br>
+
+                <label for="answer2-yangtze">Yangtze</label>
+                <input type="radio" id="answer2-yangtze" name="question2" value="yangtze">
+                <br>
+
+                <label for="answer2-mississippi">Mississippi</label>
+                <input type="radio" id="answer2-mississippi" name="question2" value="mississippi">
+            </div>
+
+            <div id="question3">
+                <h2>Which mountain is the highest in the world?</h2>
+
+                <label for="answer3-mount_everest">Mount Everest</label>
+                <input type="radio" id="answer3-mount_everest" name="question3" value="Mount Everest">
+                <br>
+
+                <label for="answer3-k2">K2</label>
+                <input type="radio" id="answer3-k2" name="question3" value="k2">
+                <br>
+
+                <label for="answer3-kangchenjunga">Kangchenjunga</label>
+                <input type="radio" id="answer3-kangchenjunga" name="question3" value="kangchenjunga">
+                <br>
+
+                <label for="answer3-lhotse">Lhotse</label>
+                <input type="radio" id="answer3-lhotse" name="question3" value="lhotse">
+            </div>
+
+            <div id="question4">
+                <h2>Which ocean is the largest in the world?</h2>
+
+                <label for="answer4-pacific">Pacific</label>
+                <input type="radio" id="answer4-pacific" name="question4" value="Pacific">
+                <br>
+
+                <label for="answer4-atlantic">Atlantic</label>
+                <input type="radio" id="answer4-atlantic" name="question4" value="atlantic">
+                <br>
+
+                <label for="answer4-indian">Indian</label>
+                <input type="radio" id="answer4-indian" name="question4" value="indian">
+                <br>
+
+                <label for="answer4-southern">Southern</label>
+                <input type="radio" id="answer4-southern" name="question4" value="Southern">
+            </div>
+            <br>
+            <div id="feedbackMessage"></div>
+
+            <input type="submit" value="Submit Quiz">
+
+        </form>
+        
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

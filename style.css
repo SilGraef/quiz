@@ -1,0 +1,48 @@
+
+#quiz-container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 500px;
+    border: 1px solid
+  }
+  
+  /* headings */
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+
+  #feedbackMessage {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Use distinct colors for correct and incorrect feedback */
+  .correct-feedback {
+    color: green;
+  }
+  
+  .incorrect-feedback {
+    color: red;
+  }
+  
+  /* my submit button */
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
